@@ -8,7 +8,7 @@ record sets driven by a map input.
 
 ```hcl
 module "dns" {
-  source = "github.com/cybercapybara/terraform-google-dns"
+  source = "github.com/moveeeax/terraform-google-dns"
 
   project_id = var.project_id
   name       = "prod-zone"
